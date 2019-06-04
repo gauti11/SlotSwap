@@ -1,0 +1,226 @@
+/* CSS Document for Double7events */
+
+body{ background: #cef2ac; }
+
+.clear{ clear: both; }
+		
+* {    margin: 0;    }
+ html, body {    height: 100%;    }
+    .wrapper {    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;    }
+    footer, .push {    height: 100px;   }
+
+/* -------------------------- Header ------------------------ */
+
+header{ width: 100%; background-color: #ffffff; border-bottom:1px solid #AFE07D; margin-bottom:0px;}
+header .content{ width:1140px; margin: 0 auto; padding: 10px 0; }
+header .logo{ float:left; }
+header .logo img{ height:80px }
+header .rightPanel{ float: right; margin-top:16px; }
+header .rightPanel nav{ float:left; margin-top: 5px; }
+header .rightPanel nav ul{ margin:0; padding:0; list-style-type: none; }
+header .rightPanel nav li{ display: block; float:left; font-size:15px; }
+header .rightPanel nav li a{ display: block; float:left; padding: 0 10px 7px; margin:0 10px; color: #969696; border-bottom:solid 1px #f8f8f8;  }
+header .rightPanel nav li a:hover{ text-decoration:none; border-bottom:solid 2px #80BA51; color:#124671; }
+header .rightPanel nav li a:focus{ text-decoration:none; border-bottom:solid 2px #80BA51; color:#124671; }
+header .rightPanel nav li a.active{ text-decoration:none; border-bottom:solid 2px #80BA51; color:#124671; }
+header .rightPanel .bigButton{ float: right; margin-left:20px; }
+.db-header
+{
+    border-bottom:0px solid #ccc; box-shadow: 0 0px 0px #e7e6e6; margin-bottom:0px;
+}
+
+/* -------------------------- Banner ------------------------- */
+section.banner{ width:1140px; background-color: #f8f8f8; margin:12px auto 42px; }
+section.banner .shadow{ background:url(../images/banner-shadow.png) repeat-x center bottom; height:416px; } 
+section.banner .content{ width: 946px; margin:0 auto; padding-top: 110px; }
+section.banner .content h1{ margin:0 0 1px 0; padding:5px; font-size:34px; font-weight:bold; color:#ffffff; text-shadow: 1px 1px 1px #8c8c8c; } 
+section.banner .content h1.blue{ background:url(../images/bg-blue.png) repeat; float:left; } 
+section.banner .content h1.green{ background:url(../images/bg-green.png) repeat; clear:both; margin-bottom: 50px; font-size:26px; } 
+section.banner .content .trybtn{ text-align:center; } 
+ 
+
+/* -------------------------- Content Area ------------------------- */
+section.contentArea{ width:1140px; margin:0 auto 42px; font-size:12px; color:#383838; line-height:18px; }
+section.contentArea h1{ font-size: 25px; color: #124671; margin-bottom:20px; }
+
+section.contentArea .features{ }
+section.contentArea .features h3{ margin:0 0 5px 0; padding:0; font-size:20px; color:#3E74A0; }
+section.contentArea .features .box{ width: 282px; padding:0 15px; box-sizing: border-box; float:left; border-right: solid 1px #afe07d; text-align:center; min-height: 200px; }
+section.contentArea .features .box p{ color:#000000;}
+section.contentArea .features .box img{ margin-bottom:10px; }
+section.contentArea .features .noborder{ border-right: none !important; }
+
+section.whyUse{ background-color: #2F692F; padding:20px; margin:0 auto 25px; width:1140px;  border: 1px solid #164f16;    border-radius: 4px;}
+section.whyUse .content{ }
+section.whyUse h2{ font-size: 25px; color: #ffffff; margin:0 0 12px 0; padding:0; text-shadow: 1px 1px 1px #4c792c; }
+section.whyUse img{ float:left; margin:0 20px 0 0; }
+section.whyUse p{ color:#ffffff; font-size: 13px; }
+
+
+.mobileSection{ background-color:#f1f1f1; width:100%; text-align:center; margin-bottom:1px; padding-top:15px; }
+.mobileSection h2{ font-size: 25px; color: #124671; margin:0 0 12px 0; padding:0; }
+.mobileSection .mobiles{ width:950px; background:url(../images/mobile.gif) no-repeat center top; height:289px; margin:0 auto; }
+.mobileSection:hover > .mobiles{ background:url(../images/mobile.gif) no-repeat center -289px; }
+.mobileSection .label{ font-size:14px; position:absolute; margin-left:5px;}
+
+.news-pannel{ margin:0 0 10px; background-color:#ffffff; padding:10px 15px; border:1px solid #afe07d; border-radius:4px;}
+.news-pannel h2{ margin-top:0px; margin-bottom:5px; font-size:26px;    }
+
+.loginbtm{ text-align:center; font-size:12px; color:#aaabae; margin:20px 0 5px; }
+.login-content
+{
+    width:650px; border: 1px solid #d9fcb3; border-radius:8px; margin:0 auto; padding:20px; box-shadow: 2px 6px 8px #ccc; background-color:#ffffff;
+}
+.login-content .login-logo
+{
+    width:50%; float:left;
+}
+.login-content img
+{
+    height:90px; 
+    margin-top:30px;
+}
+.login-content .login-form
+{
+    width:50%; float:left;
+}
+
+.login-top-area
+{
+    height:100px;
+}
+.login-footer
+{
+    text-align:center;
+    margin-top:20px; color:#124671;
+}
+/* -------------------------- Footer Area ------------------------- */
+footer{ background-color:#3E74A0; padding:30px 10px 10px; text-align:center; color:#ffffff; font-size:13px; }
+footer a{  color:#ffffff; }
+footer a:hover{ color:#ffffff; text-decoration:none; }
+footer a:focus{ color:#ffffff; text-decoration:none; }
+footer ul{ margin:0 0 20px 0; padding:0; list-style-type: none; }
+footer ul li{ display:inline; padding: 0 15px; border-right: solid 1px #628db1;  }
+footer ul li:last-child{ border-right: none; }
+.website-footer div ul{ float:left;}
+.website-footer .inner-nav{ width:1140px; margin:0 auto;	}
+.social-icn a img{ width:32px;}
+.social-icn a{ opacity:0.8;}
+.social-icn a:hover{ opacity:1;}
+
+/* -------------------------- User Admin Area ------------------------- */
+.adminNav{ background-color:#3E74A0; margin-bottom:1px; }
+.adminNav .content{ width:1140px; margin:0 auto; }
+.adminNav .navbar-header{ display: none; }
+.navbar-collapse{ padding-left:0 !important; padding-right:0 !important; }
+.container-fluid{ padding-left:0 !important; padding-right:0 !important; }
+.navbar-default .navbar-nav > li > a{ background:url(../images/nav-sep.gif) no-repeat right center; }
+.navbar{ float: left; }
+
+.dropdown-menu{ min-width: 140px !important; font-size: 13px; }
+.dropdown-menu > li > a{ padding:3px 12px; }
+.dropdown-menu .divider{ margin:5px 0; }
+a.logout{ color: #CC0000 !important; }
+
+.spotButtons{ float:right; margin-top: 5px; }
+
+.highlights{ width:1140px; margin:0 auto 20px; }
+.highlights .expenses, .highlights .mileage, .highlights .profile{ width: 33%; float:left; margin-right: 1px; box-sizing: border-box; padding:9px; height:143px; text-align:center; color:#ffffff; }
+.highlights .expenses{ background:url(../images/highlight-ico1.gif) center top; }
+.highlights .mileage{ background:url(../images/highlight-ico2.gif) center top; }
+.highlights .profile{ background:url(../images/highlight-ico3.gif) center top; }
+.highlights .profile img{ border-radius: 33px; }
+.highlights span{ font-size: 50px; font-weight: bold; display: block; }
+.highlights{ font-size:16px; text-shadow: 1px 1px 1px #1c3148; }
+.highlights a{ font-size: 13px; color:#b5e096; text-decoration: underline; }
+.highlights a:hover, .highlights a:focus{ text-decoration: none; }
+.nopadding{ padding: 0 !important; }
+.nopaddingR{ padding-right: 0 !important; }
+.nopaddingL{ padding-left: 0 !important; }
+
+ul.activity{ margin:0; padding:0 0 0 9px; list-style-type:circle; }
+ul.activity li{ margin-bottom:5px; padding-bottom:5px; border-bottom:dotted 1px #e0e0e0; }
+ul.activity li:last-child{ margin-bottom:0; padding-bottom:0; border-bottom:none; }
+ul.activity li span{ color:#187bcc;  }
+
+.wrapper{ width: 1140px; margin:0 auto;}
+.adver-pannel{ border:1px solid #afe07d; padding:0px; border-radius:4px;}
+.adver-pannel div img{ width:100%;}
+.testimonial-area{ margin-bottom:30px;}
+.testimonial-area blockquote{ background:url(../images/blockquote.png) no-repeat 0 0; border:0px; padding-left:50px;}
+.testimonial-area h2 {
+    font-size: 26px;}
+	body.admin-pages{ background-color:#ffffff;}
+	.admin-pages .wrapper{ width: 100%;}
+	.user-reg .btn-lg{ font-size:24px; padding: 15px 25px; margin:15px 10px;}
+	.user-reg .badge {    font-size: 16px;}
+	.noti-pannel .btn-lg{ margin:15px 10px;}
+	.filter-table{  min-height:128px; border:1px solid #eee; border-radius:8px; margin-bottom:15px; padding:10px 5px;}
+/* -----------------------------------------------------------------------------------
+
+	Responsive CSS Classes
+	
+----------------------------------------------------------------------------------- */
+@media only screen and (max-width:1140px) {
+
+header .content{ width:98%; }
+.header .content{ width:98%; }
+section.contentArea{ width:98%; margin:0 auto 42px; }
+section.contentArea .features .box{ width: 25%; padding:0 12px; }
+section.whyUse{ width: 98%; }
+.adminNav .content{ width: 98%; }
+.highlights{ width: 98%; }
+
+}
+
+
+@media only screen and (max-width:950px) {
+
+section.banner .content{ width: 98%; padding-top: 110px; }
+section.banner .content h1.green{ font-size:24px; }
+.mobileSection .mobiles{ width:98%;  }
+
+}
+
+
+@media only screen and (max-width:800px) {
+
+section.banner .content{ width: 98%; padding-top: 110px; }
+section.banner .content h1.green{ font-size:20px; }
+
+}
+
+
+@media only screen and (max-width:767px) {
+
+section.contentArea .features .box{ width: 50%; padding:0 10px; margin-bottom:15px; border:none; }
+.adminNav .navbar-header{ display:block; }
+.navbar{ float: none; }
+.spotButtons{ float:none; margin: 10px 0; text-align:center; padding-bottom:10px; }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+footer{ height:auto !important; }
+
+}
+
+
+@media only screen and (max-width:320px) {
+
+section.contentArea .features .box{ width: 100%; padding:0 10px; }
+
+}
+
+
+
+
+
+
+
+
